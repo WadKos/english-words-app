@@ -55,13 +55,12 @@
                 android:layout_height="40dp"
                 android:layout_gravity="start|center"
                 android:layout_marginStart="12dp"
-                android:fontFamily="@font/rubik_regular"
                 android:background="@drawable/shape_rounded_variants"
                 android:gravity="center"
                 android:text="1"
                 tools:ignore="HardcodedText"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                style="@style/TextViewVariantsStyle"/>
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -69,11 +68,9 @@
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
                 android:gravity="center"
-                android:fontFamily="@font/rubik_regular"
                 android:text="Сломать"
                 tools:ignore="HardcodedText"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                style="@style/TextViewVariantsStyle"/>
 
         </LinearLayout>
 
@@ -93,9 +90,7 @@
                 android:gravity="center"
                 android:text="2"
                 tools:ignore="HardcodedText"
-                android:fontFamily="@font/rubik_regular"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                style="@style/TextViewVariantsStyle"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -103,11 +98,9 @@
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
                 android:gravity="center"
-                android:fontFamily="@font/rubik_regular"
                 android:text="Сон"
                 tools:ignore="HardcodedText"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                style="@style/TextViewVariantsStyle"/>
 
         </LinearLayout>
 
@@ -125,11 +118,9 @@
                 android:layout_marginStart="12dp"
                 android:background="@drawable/shape_rounded_variants"
                 android:gravity="center"
-                android:fontFamily="@font/rubik_regular"
                 android:text="3"
                 tools:ignore="HardcodedText"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                style="@style/TextViewVariantsStyle"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -137,11 +128,9 @@
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
                 android:gravity="center"
-                android:fontFamily="@font/rubik_regular"
                 android:text="Галактика"
                 tools:ignore="HardcodedText"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                style="@style/TextViewVariantsStyle"/>
 
         </LinearLayout>
 
@@ -159,11 +148,9 @@
                 android:layout_marginStart="12dp"
                 android:background="@drawable/shape_rounded_variants"
                 android:gravity="center"
-                android:fontFamily="@font/rubik_regular"
                 android:text="4"
                 tools:ignore="HardcodedText"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                style="@style/TextViewVariantsStyle"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -171,11 +158,9 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:gravity="center"
-                android:fontFamily="@font/rubik_regular"
                 android:text="Утюг"
                 tools:ignore="HardcodedText"
-                android:textColor="#888992"
-                android:textSize="16sp" />
+                style="@style/TextViewVariantsStyle"/>
 
         </LinearLayout>
 
