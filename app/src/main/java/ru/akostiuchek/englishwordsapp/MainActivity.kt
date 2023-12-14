@@ -64,6 +64,10 @@ class MainActivity : AppCompatActivity() {
                     } else {
                         markAnswerIncorrect(layoutAnswer1, tvVariantNumber1, tvVariantValue1)
                     }
+                    layoutAnswer1.setOnClickListener(null)
+                    layoutAnswer2.setOnClickListener(null)
+                    layoutAnswer3.setOnClickListener(null)
+                    layoutAnswer4.setOnClickListener(null)
                 }
 
                 layoutAnswer2.setOnClickListener {
@@ -72,6 +76,10 @@ class MainActivity : AppCompatActivity() {
                     } else {
                         markAnswerIncorrect(layoutAnswer2, tvVariantNumber2, tvVariantValue2)
                     }
+                    layoutAnswer1.setOnClickListener(null)
+                    layoutAnswer2.setOnClickListener(null)
+                    layoutAnswer3.setOnClickListener(null)
+                    layoutAnswer4.setOnClickListener(null)
                 }
 
                 layoutAnswer3.setOnClickListener {
@@ -80,6 +88,10 @@ class MainActivity : AppCompatActivity() {
                     } else {
                         markAnswerIncorrect(layoutAnswer3, tvVariantNumber3, tvVariantValue3)
                     }
+                    layoutAnswer1.setOnClickListener(null)
+                    layoutAnswer2.setOnClickListener(null)
+                    layoutAnswer3.setOnClickListener(null)
+                    layoutAnswer4.setOnClickListener(null)
                 }
 
                 layoutAnswer4.setOnClickListener {
@@ -88,6 +100,10 @@ class MainActivity : AppCompatActivity() {
                     } else {
                         markAnswerIncorrect(layoutAnswer4, tvVariantNumber4, tvVariantValue4)
                     }
+                    layoutAnswer1.setOnClickListener(null)
+                    layoutAnswer2.setOnClickListener(null)
+                    layoutAnswer3.setOnClickListener(null)
+                    layoutAnswer4.setOnClickListener(null)
                 }
             }
         }
