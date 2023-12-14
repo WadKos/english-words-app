@@ -3,4 +3,5 @@
     <string name="button_skip">Пропустить</string>
     <string name="button_continue">Продолжить</string>
     <string name="title_correct">Верно!</string>
+    <string name="title_incorrect">Неверно!</string>
 </resources>
