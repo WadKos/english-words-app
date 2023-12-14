@@ -36,6 +36,10 @@ class MainActivity : AppCompatActivity() {
             btnSkip.setOnClickListener {
                 showNextQuestion(trainer)
             }
+
+            ivClose.setOnClickListener {
+                finish()
+            }
         }
 
     }
